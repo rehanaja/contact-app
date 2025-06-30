@@ -1,0 +1,26 @@
+ // Core Module
+ // File system
+
+// import { readFile } from "node:fs";
+// menuliskan string ke file (synchronus)
+// try {
+// fs.writeFileSync("data/test.txt", "Hello world secara synchronus!");
+// } catch (e) {
+// console.log(e);
+// }
+
+// menuliskan string ke file (Asynchronus)
+// fs.writeFile("data/test.txt", "Hello World Secara Asynchronus", (err) => {
+//   console.log(err);
+// });
+
+// membaca isi file
+// fs.readFile("data/test.txt", "utf-8", (err, data) => {
+//   if (err) throw err;
+//   console.log(data);
+// });
+
+// readFile("data/test.txt", "utf8", (err, data) => {
+//   if (err) throw err;
+//   console.log(data);
+// });
